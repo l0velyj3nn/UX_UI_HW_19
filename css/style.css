@@ -1,0 +1,357 @@
+
+
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Fonts are your friends 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0;
+  color: white;
+}
+
+h1 {
+  font-family: 'Ultra';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.section-icons h1 {
+	font-size: 100px;
+}
+
+
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Banging my for-header on the keyboard
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.header {
+  padding: 15px;
+}
+.header ul {
+  float: right;
+  color: white;
+}
+.header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+.header p {
+  display: inline-block;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+That's the brow beating, heavy, leather, resur-section beat
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.page-section {
+	padding: 20px 0;
+}
+
+.section-header {
+	text-align: center;
+}
+
+.section-header h2 {
+	/* font-size: 32px; */
+	font-size: calc(24px + 5vw);
+	margin-top: 0;
+}
+
+.section-icons {
+  display:block;
+  z-index: 1;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You can get with div, or you can get with dat
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	margin: 2px;
+}
+
+.card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: rgba(59, 59, 59, 0.13);
+	padding: 24px;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Let's talk about flex, baby. Let's talk about you and me.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.section-icons {
+  display:block;
+  z-index: 1;
+}
+
+.section-icons .row {
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+  justify-content: space-between;
+}
+
+.section-icons .row .img-block {
+  position: relative;
+  min-height: 70px;
+  min-width: 70px;
+  margin-bottom: calc((100vw - 224px) / 3);
+}
+
+.section-icons .row .img-block img {
+  position: absolute;
+  /* opacity: 0; */
+  width: 100%;
+  max-width: 70px;
+  margin: auto;
+  top: 10%;
+  left: 10%;
+}
+
+.section-icons {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-icons .row {
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+    -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.section-icons .row .img-block {
+  position: relative;
+  min-height: 70px;
+  min-width: 70px;
+  margin-bottom: calc((100vw - 224px) / 3);
+}
+
+.section-icons .row .img-block img {
+  position: absolute;
+  max-width: 70px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 570px) {
+  .section-icons .row {
+    grid-template-columns: 70px 70px 70px 70px;
+  }
+  .section-icons .row .img-block {
+    margin-bottom: calc((100vw - 400px) / 4);
+  }
+}
+
+@media (min-width: 760px) {
+  .section-icons .row {
+    grid-template-columns: 75px 75px 75px 75px 75px;
+  }
+  .section-icons .row .img-block {
+    min-height: 75px;
+    margin-bottom: calc((78vw - 390px) / 5);
+  }
+  .section-icons .row .img-block img {
+    max-width: 75px;
+    max-height: 75px;
+  }
+}
+
+@media (min-width: 980px) {
+  .section-icons .row {
+    grid-template-columns: 80px 80px 80px 80px 80px 80px;
+  }
+  .section-icons .row .img-block {
+    min-height: 80px;
+    margin-bottom: calc((78vw - 480px) / 6);
+  }
+  .section-icons .row .img-block img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+}
+
+@media (min-width: 1170px) {
+  .section-icons .row {
+    grid-template-columns: 84px 84px 84px 84px 84px 84px 84px;
+  }
+  .section-icons .row .img-block {
+    min-height: 84px;
+    margin-bottom: calc((85vw - 588px) / 7);
+  }
+  .section-icons .row .img-block img {
+    max-width: 84px;
+    max-height: 84px;
+  }
+}
+
+@media (min-width: 1415px) {
+  .section-icons .row {
+    grid-template-columns: 90px 90px 90px 90px 90px 90px 90px 90px;
+  }
+  .section-icons .row .img-block {
+    min-height: 90px;
+    margin-bottom: calc((85vw - 720px) / 8);
+  }
+  .section-icons .row .img-block img {
+    max-width: 90px;
+    max-height: 90px;
+  }
+}
+
+@media (min-width: 1660px) {
+  .section-icons .row {
+    grid-template-columns: 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+  }
+  .section-icons .row .img-block {
+    margin-bottom: calc((85vw - 810px) / 9);
+  }
+}
+
+@media (min-width: 1860px) {
+  .section-icons .row {
+    grid-template-columns: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+  }
+  .section-icons .row .img-block {
+    margin-bottom: calc((85vw - 960px) / 10);
+  }
+}
+
+@media (min-width: 2060px) {
+  .section-icons .row {
+    grid-template-columns: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+  }
+  .section-icons .row .img-block {
+    margin-bottom: calc((85vw - 990px) / 11);
+  }
+}
+
+
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Safest place to hide a body
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.content-intro-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-image: linear-gradient(rgba(255,0,0,0), #000000);
+  color: white;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.content-intro-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 60%;
+}
+
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+  max-width: 40%;
+}
+
+.body-container {
+  /* min-height: calc(100vh - 500px); */
+  background-image: linear-gradient(rgba(255,0,0,0), #000000);
+  padding: 150px 50px 94px 50px;
+}
+
+
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The code's on the other footer 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+.footer {
+  background-color: #000000;
+  padding: 5px;
+  color: white;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+.footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Background experiment improvised/borrowed from urbanriedo.ch 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+body.about-page {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: relative; 
+  background-color: #000;
+}
+
+body.about-page:before {
+  background-image: url(../images/Jenn_photo-2.png);
+  background-repeat: no-repeat;
+  background-position: center 4%;
+  background-size: cover;
+  position: absolute !important;
+  pointer-events: none;
+  content: '';
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* animation: fade-in-scale-down 5s ease-out 1;
+  -webkit-animation: fade-in-scale-down 5s ease-in-out 1;
+  -moz-animation: fade-in-scale-down 5s ease-in-out 1;
+  -o-animation: fade-in-scale-down 5s ease-in-out 1; */
+}
