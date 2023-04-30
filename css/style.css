@@ -259,6 +259,43 @@ Let's talk about flex, baby. Let's talk about you and me.
   }
 }
 
+/* 
+Ghost of MS Office past
+*/
+
+.content-clippy-box {
+  position:-webkit-sticky;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-image: url("https://l0velyj3nn.github.io/UX_UI_HW_19/images/Clippy.png");
+  order: 1;
+  min-width: 249px;
+  min-height: 205px;
+}
+
+.content-clippy-card {
+  text-align: left;
+  align: top;
+  color: blue;
+  font-size: 10px;
+  padding-left: 10px;
+  font-size: 8px;
+  max-width: 150px;
+}
+
+section .reveal {
+  opacity: 0;
+  transition: transform, opacity;
+  transition-duration: .2s;
+  transition-timing-function: ease;
+}
+
+section .reveal.show {
+  opacity: 1;
+}
+
+
 
 /* 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
